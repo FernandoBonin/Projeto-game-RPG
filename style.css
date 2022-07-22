@@ -1,0 +1,39 @@
+#sectionDice {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+img {
+  width: 150px;
+  height: 150px;
+}
+#gifDice {
+  width: 200px;
+  height: 200px;
+}
+.myBtn {
+  height: 50px;
+  width: 80px;
+  background-color: darkgray;
+  color: #161618;
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+}
+.alignImg {
+  align-self: center;
+}
+.animationDice {
+  animation: animation-dice 1s linear;
+}
+@keyframes animation-dice {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
